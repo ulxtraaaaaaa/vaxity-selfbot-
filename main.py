@@ -64,7 +64,6 @@ async def moderation(ctx):
   embed.add_field(name="*🎸 𝙆𝙞𝙘𝙠 [𝙢𝙚𝙢𝙗𝙚𝙧]*",value="`Kicks The Specified Member`",inline=False)
   embed.add_field(name="*🎸 𝘼𝙍 [𝙢𝙚𝙢𝙗𝙚𝙧] [𝙧𝙤𝙡𝙚]*",value="`Adds The Specified Role To The Specified Member`",inline=False)
   embed.add_field(name="*🎸 𝙏𝙍 [𝙢𝙚𝙢𝙗𝙚𝙧] [𝙧𝙤𝙡𝙚]*",value="`Takes The Specified Role From The Specified Member`",inline=False)
-  embed.add_field(name="*🎸 𝙈𝙪𝙩𝙚 [𝙢𝙚𝙢𝙗𝙚𝙧]*",value="`Mutes The Specified Member`",inline=False)
   embed.add_field(name="*🎸 𝙋𝙪𝙧𝙜𝙚 <𝙖𝙢𝙤𝙪𝙣𝙩>*",value="`Purges The Specified Amount Of Messages`",inline=False)
   embed.set_image(url="https://cdn.discordapp.com/attachments/798884296983183400/810672071193395230/image0.gif")
   await ctx.send(embed=embed)
